@@ -36,7 +36,7 @@
         $this->load->view('templates/footer');
       }else{
         $this->post_model->create_post();
-        redirect('posts');
+        redirect('localhost/posts');
       }
     }
   }
